@@ -105,7 +105,7 @@ npm run dev
 ```bash
 npm run build
 ```
- `dist/index.html` にJS/CSS完全インライン化。file:// でダブルクリック起動可能。
+→ `dist/index.html` にJS/CSS完全インライン化。file:// でダブルクリック起動可能。
 
 ### GitHub Pages
 main ブランチへ push で Actions が自動ビルド→Pages デプロイ。

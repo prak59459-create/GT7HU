@@ -13,4 +13,4 @@ window.addEventListener('error', (e) => {
 const game = new Game(container);
 game.start();
 (window as any).game = game; // 開発/テスト用公開
-console.log('[Project Racing Simulator] Phase 2 initialized (race mode + AI rivals).');
+console.log('[Project Racing Simulator] Phase 4 initialized (game content: license center / missions / time trial / drift trial).');

@@ -262,7 +262,7 @@ export class TrackBuilder {
       const x = pos.getX(i), z = pos.getZ(i);
       const d = Math.hypot(x, z);
       const h = Math.sin(x * 0.01) * 1.5 + Math.cos(z * 0.012) * 1.5 + (d > 200 ? Math.sin(d * 0.005) * 4 : 0);
-      pos.setY(i, h - 0.3);
+      pos.setY(i, h - 4);
     }
     geo.computeVertexNormals();
     const tex = makeGrassTexture();
